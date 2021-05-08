@@ -14,7 +14,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  >h3{
+  > h3 {
     font-size: 1.8rem;
     color: var(--primary);
   }
@@ -39,28 +39,37 @@ export const Container = styled.div`
       align-items: flex-end;
       padding: 0 2rem;
 
-      > img {
-        width: 5rem;
-        height: 5rem;
-        border: 5px solid #fff;
-        border-radius: 50%;
-      }
       > div {
+        display: flex;
+        flex-direction: column;
         background: #fff;
         padding: 2rem;
-        width: 30rem;
+        width: 40vw;
         border-radius: 3.5rem;
         margin-left: 1rem;
 
         > p {
           text-align: justify;
         }
-        > h4 {
-          margin-top: 1rem;
-          font-size: 1.1rem;
-          color: #000;
-        }
       }
     }
+  }
+`;
+
+export const RowContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > h4 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #000;
+  }
+  > img {
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid #fff;
+    border-radius: 50%;
   }
 `;

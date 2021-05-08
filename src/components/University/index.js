@@ -4,7 +4,7 @@ import universityImg from "../../assets/img4.png";
 export function University() {
   return (
     <Container>
-      <h3>Conheça as universidades do Estado do RIo de Janeiro</h3>
+      <h3>Conheça as universidades do Estado do Rio de Janeiro</h3>
 
       <div>
         <img src={universityImg} alt="" />

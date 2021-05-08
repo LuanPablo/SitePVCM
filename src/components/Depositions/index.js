@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, RowContainer } from "./styles";
 import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
@@ -15,7 +15,6 @@ export function Depositions() {
           <IoIosArrowDropleftCircle />
         </button>
         <div>
-          <img src={AvatarImg} alt="" />
           <div>
             <p>
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu
@@ -24,7 +23,10 @@ export function Depositions() {
               convallis varius blandit integer. Nibh rutrum mattis euismod purus
               faucibus urna.”
             </p>
-            <h4>Paula Martins</h4>
+            <RowContainer>
+              <h4>Paula Martins</h4>
+              <img src={AvatarImg} alt="" />
+            </RowContainer>
           </div>
         </div>
         <button>

@@ -4,6 +4,7 @@ import { Registrations } from "../../components/Registrations";
 import { Container } from "./styles";
 import { Depositions } from "../../components/Depositions";
 import { University } from "../../components/University";
+import { Footer } from "../../components/Footer";
 
 export function LandingPage() {
   return (
@@ -13,6 +14,7 @@ export function LandingPage() {
       <Registrations/>
       <Depositions/>
       <University/>
+      <Footer/>
     </Container>
   );
 }
