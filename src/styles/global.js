@@ -2,10 +2,10 @@ import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle `
 :root{
-  --primary: #A0D22C; 
-  --secondary: #909090;
-  --background: #F7F7F7;
-  --gray: #D1D1D1;
+  --primary: #5B2B68; 
+  --secondary: #FFCF89;
+  --background: #fff;
+  --text: #616161;
 }
 
 *{
@@ -36,9 +36,9 @@ body{
 }
 
 body, input, textarea, button{
-  font-family: Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: var(--secondary);
+  color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6, strong {
