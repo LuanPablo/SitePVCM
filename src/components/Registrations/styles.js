@@ -8,7 +8,7 @@ margin:auto;
 h2{
   color: var(--primary);
   font-weight: 900;
-  font-size:1.5rem;
+  font-size:1.7rem;
   margin:4rem 0 4rem 0;
   text-align: center;
 }
@@ -22,7 +22,8 @@ h2{
   line-height: 4.5rem;
  
   img{
-  width: 5rem;
+  width: 6rem;
+  text-align: center;
   }
   h3{
   color:#FF9657;
@@ -33,7 +34,7 @@ h2{
   p{
   width:18rem; 
   font-weight: normal;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   display: flex;
   text-align:justify;
